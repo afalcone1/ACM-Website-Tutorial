@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+}
+#sponsor {
+    text-align: center;
+}
+body {
+    color: black;
+    background: url("images/background.jpeg");
+    background-size: cover;
+    font-size: 15pt;
+}
+img {
+    padding-top: 10px;
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+li {
+    padding: 5px;
+    padding-right: 40px;
+}
+thead {
+    border: 5px solid black;
+}
+thead tr{
+    font-weight: bold;
+    border: 5px solid black;
+}
+td {
+    min-width: 150px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid #aaa;
+    font-size: 15pt;
+}
+tbody tr:hover{
+    background-color: gray;
+}
+thead td {
+    border: 1px solid black;
+}
+.divclass {
+    text-align: center;
+    list-style-position: inside;
+}
+.child {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #490888;
+    color: white;
+    min-height: 200px;
+    min-width: 575px;
+    margin: 20px;
+}
+.child a {
+    color:white;
+}
+.center {
+    text-align: center;
+}
+table.centeredTable {
+    margin-left:auto; 
+    margin-right:auto;
+}
